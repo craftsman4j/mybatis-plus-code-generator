@@ -267,14 +267,14 @@
                                 <label class="layui-form-label">实体类</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="fileNamePatternEntity" placeholder="请输入实体类文件名格式"
-                                           value="%sEntity" autocomplete="off" class="layui-input">
+                                           value="%s" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
                             <div class="layui-form-item">
                                 <label class="layui-form-label">mapper</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="fileNamePatternMapper" placeholder="请输入Mapper文件名格式"
-                                           value="I%sMapper" autocomplete="off" class="layui-input">
+                                           value="%sMapper" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
                             <div class="layui-form-item">
@@ -289,14 +289,14 @@
                                 <label class="layui-form-label">service</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="fileNamePatternService" placeholder="请输入service文件名格式"
-                                           value="IMp%sService" autocomplete="off" class="layui-input">
+                                           value="%sService" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
                             <div class="layui-form-item">
                                 <label class="layui-form-label">service.impl</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="fileNamePatternServiceImpl" placeholder="请输入Service Impl包名"
-                                           value="Mp%sServiceImpl" autocomplete="off" class="layui-input">
+                                           value="%sServiceImpl" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
 
@@ -316,7 +316,7 @@
                                 <label class="layui-form-label">逻辑删除</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="fieldLogicDelete" placeholder="请输入逻辑删除字段名"
-                                           value="deleted_state" autocomplete="off" class="layui-input">
+                                           value="deleted" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
 
@@ -351,8 +351,8 @@
                             <div class="layui-form-item">
                                 <label class="layui-form-label">日期时间类型</label>
                                 <div class="layui-input-block">
-                                    <input type="radio" name="dateTimeType" value="java.util" title="java.util.Date">
-                                    <input type="radio" name="dateTimeType" value="java.time" title="java.time.LocalDateTime" checked>
+                                    <input type="radio" name="dateTimeType" value="java.util" title="java.util.Date" checked>
+                                    <input type="radio" name="dateTimeType" value="java.time" title="java.time.LocalDateTime">
                                 </div>
                             </div>
 
@@ -376,7 +376,7 @@
                                 <label class="layui-form-label">字段注解</label>
                                 <div class="layui-input-block">
                                     <input type="checkbox" name="fieldAnnotation" lay-skin="switch" lay-text="开启|关闭"
-                                           value="true" checked>
+                                           value="true">
                                 </div>
                             </div>
 
